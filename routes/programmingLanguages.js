@@ -19,7 +19,7 @@ router.post('/', async function(req, res, next) {
       next(err);
     }
   });
-/* PUT programming language */
+/* PUT programming language change */
 router.put('/:id', async function(req, res, next) {
     try {
       res.json(await programmingLanguages.update(req.params.id, req.body));
