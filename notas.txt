@@ -1,0 +1,16 @@
+  442  git commit -S -m "second commit ro"
+  443  git commit .
+  444  ls
+  445  git init
+  446  ls
+  447  git init
+  448  git add README.md
+  449  git add README.md
+  450  touch README.md
+  451  git add README.md
+  452  git commit -m "first commit"
+  453  git branch -M main
+  454  git remote add origin https://github.com/robinsonn1/ProgrammingDB.git
+  455  git push -u origin main
+  456  history
+  457  history
